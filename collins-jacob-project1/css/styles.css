@@ -36,17 +36,6 @@ nav li {
     }
 
 
-#navigation a:active {
-
-    box-shadow: 0 0 #990000;
-    padding: 8px 30px 8px;
-    top: 3px;
-}
-
-#navigation a:hover {
-    color: #990000;
-    background-color: #909093;
-}
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
 	text-indent: 50px;
