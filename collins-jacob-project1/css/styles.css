@@ -14,8 +14,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	border-radius: 25px;
-	box-shadow: 10px 10px 5px #0000000;
-	}
+		}
 
 #header {
 	font-family: 'Amatic SC', cursive;
@@ -54,4 +53,7 @@ nav li {
 	color: #565658;
 	}
 
-
+#note {
+	background-color: #990000;
+	box-shadow: 10px 10 px 5px #000000;
+	}
