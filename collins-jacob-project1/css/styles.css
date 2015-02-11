@@ -14,6 +14,7 @@ body {
 	margin: 0 auto;
 	padding: 0;
 	border-radius: 25px;
+	box-shadow: 10px 10px 5px #0000000;
 	}
 
 #header {
