@@ -61,7 +61,9 @@ nav li {
 	background-color: #990000;
 	padding-top: 5px;
 	padding-bottom:5px;
-	box-shadow: 10px 10 px 5px #000000;
+	margin-left:30px;
+	margin-right: 30px;
+	box-shadow:5px 8px 10px #000000;
 	}
 
 li {
