@@ -54,6 +54,8 @@ nav li {
 	}
 
 #note {
+	color: #ffffff;
 	background-color: #990000;
+	width:80%
 	box-shadow: 10px 10 px 5px #000000;
 	}
