@@ -1,7 +1,6 @@
 <!--CSS style sheet for Jacob Collins -->
 
-#title {
-	width: 100%;
-	left-margin:auto;
-	right-margin: auto;
+body {
+	margin: 100px;
+	padding: 0 px;
 }
