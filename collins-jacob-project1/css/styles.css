@@ -16,5 +16,7 @@ body {
 	}
 
 #header {
-	font-family: 'Amatic SC', cursive;	
+	font-family: 'Amatic SC', cursive;
+	color: #99000;
+	text-shadow: 2px 2px #000000;
 	}
