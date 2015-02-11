@@ -20,6 +20,7 @@ body {
 	color: #990000;
 	text-shadow: 2px 2px #000000;
 	font-size: 3.2em;
+	margin: 0px;
 	}
 
 nav {
@@ -46,25 +47,19 @@ nav li {
     background-color: #000000;
     box-shadow: 0 3px #990000;
     text-decoration: none;
-
-
-
 }
-
-
 
 #navigation a:active {
 
     box-shadow: 0 0 #990000;
     padding: 8px 30px 8px;
     top: 3px;
-
 }
-
-
 
 #navigation a:hover {
     color: #990000;
     background-color: #909093;
-
 }
+
+#quote{
+
