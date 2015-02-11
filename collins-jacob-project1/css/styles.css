@@ -8,3 +8,9 @@ body {
 	font-size: 100%;
 	}
 
+#boxcontainer {
+	background-color: #ffffff;
+	width:75%;
+	margin: 0 auto;
+	padding: 0;
+	}
