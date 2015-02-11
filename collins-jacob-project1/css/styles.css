@@ -1,5 +1,7 @@
 <!--CSS style sheet for Jacob Collins -->
 
-p {
-	text-indent: 50px;
+#title {
+	width: 100%;
+	left-margin:auto;
+	right-margin: auto;
 }
