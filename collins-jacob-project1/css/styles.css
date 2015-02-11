@@ -83,3 +83,7 @@ figure {
 figure:hover{
 	opacity: 1.0;
 	}
+
+#disclaimer {
+	margin: auto;
+	}
