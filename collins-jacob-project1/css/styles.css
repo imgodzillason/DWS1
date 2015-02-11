@@ -63,5 +63,8 @@ nav li {
 
 li {
 	list-style-type: upper-roman;
+	}
+
+ol {
 	padding-left: 50px;
 	}
