@@ -73,3 +73,7 @@ li {
 ol {
 	padding-left: 50px;
 	}
+
+figure:hover{
+	opacity: 0.4;
+	}
