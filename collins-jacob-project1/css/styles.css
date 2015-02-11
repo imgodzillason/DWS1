@@ -1,7 +1,9 @@
-/* CSS style sheet for Jacob Collins */
-#header {
-width: 300px;
-    padding: 25px;
-    border: 25px solid navy;
-    margin: 25px;
-    }
+/*-- CSS style sheet for Jacob Collins --*/
+
+/*-- Global Styles --*/
+
+body {
+	background-color: #000000;
+	width: 100%;
+	font-size: 100%;
+	}	
