@@ -35,6 +35,28 @@ nav li {
     display: inline-block;
     }
 
+a:link {
+	color: #003300;
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #660066;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #FF3300;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+a:active {
+	color: #FF3300;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
 
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
