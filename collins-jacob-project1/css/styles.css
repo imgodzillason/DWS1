@@ -75,6 +75,7 @@ ol {
 	}
 
 figure {
+	display: inline-block;
 	width: 222px;
 	opacity: 0.5;
 	}
