@@ -61,6 +61,6 @@ nav li {
 	box-shadow: 10px 10 px 5px #000000;
 	}
 
-#list {
+li {
 	list-style-type: upper-roman;
 	}
