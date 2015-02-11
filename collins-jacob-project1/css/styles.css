@@ -74,6 +74,10 @@ ol {
 	padding-left: 50px;
 	}
 
+figure {
+	margins: auto;
+	}
+
 figure:hover{
 	opacity: 0.4;
 	}
