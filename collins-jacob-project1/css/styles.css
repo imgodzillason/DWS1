@@ -85,5 +85,5 @@ figure:hover{
 	}
 
 #disclaimer {
-	margin: auto;
+display: inline;
 	}
