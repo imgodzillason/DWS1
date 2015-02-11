@@ -38,6 +38,11 @@ nav li {
 	color: #ffffff;
 	}
 
+#navigation a:active {
+    box-shadow: 0 0 #444444;
+    padding: 8px 30px 8px;
+    top: 3px;
+
 #navigation a:hover {
 	color:#990000;
 	}
