@@ -76,8 +76,9 @@ ol {
 
 figure {
 	width: 222px;
+	opacity: 0.5;
 	}
 
 figure:hover{
-	opacity: 0.4;
+	opacity: 1.0;
 	}
