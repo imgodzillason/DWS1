@@ -22,7 +22,7 @@ h2 {
 }
 
 h3 {
-		font-family: 'Special Elite', cursive;
+	font-family: 'Special Elite', cursive;
 }
 
 li {
@@ -32,6 +32,16 @@ li {
 ol {
 	padding-left: 50px;
 }
+
+#para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
+	text-indent: 50px;
+	color: #565658;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 110%;
+}
+
+/* --Gallery-- */
 
 figure {
 	display: inline-block;
@@ -43,13 +53,6 @@ figure:hover{
 	opacity: 1.0;
 }
 
-#para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
-	text-indent: 50px;
-	color: #565658;
-	font-weight: normal;
-	font-style: normal;
-	line-height: 110%;
-}
 
 /* --Navigation and Navigation Links-- */
 
