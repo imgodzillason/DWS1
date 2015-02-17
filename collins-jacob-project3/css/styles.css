@@ -64,6 +64,7 @@ div#content{
 	width: 500px;
 	margin: 0 auto;
 	padding: 20px;
+	clear:both;
 	}
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
@@ -109,7 +110,7 @@ figure:hover{
 	}
 
 #gallery{
-	padding-left:660px;
+	padding-left:100px;
 	}
 
 #disclaimer {
