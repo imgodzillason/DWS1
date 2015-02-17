@@ -61,7 +61,7 @@ a:active {
 div#content{
 	background-color: #ffffff;
 	float:left;
-	width: 500px;
+	width: 55%;
 	margin: 0 auto;
 	padding: 20px;
 	clear:both;
@@ -106,7 +106,9 @@ figure:hover{
 
 #gradient{
 	background:linear-gradient(#0DDCF7, #D89212);
+	margin-left:40px;
 	padding-left: 660px;
+	width:35%;
 	}
 
 #gallery{
