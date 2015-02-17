@@ -9,7 +9,7 @@ body {
 	}
 
 #boxcontainer {
-	background: url(images/dark-spade.png) top left repeat;
+	background: url(images/dark-spade.png) repeat fixed 0 0;
 	width:90%;
 	margin: 0 auto;
 	padding: 0;
