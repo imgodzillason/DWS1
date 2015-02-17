@@ -60,6 +60,10 @@ a:active {
 
 #content{
 	float:left;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	border-radius: 25px;
 	}
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
