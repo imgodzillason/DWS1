@@ -58,6 +58,14 @@ a:active {
 	cursor: pointer;
 	}
 
+div#content{
+	background-color: #ffffff;
+	float:left;
+	width: 500px;
+	margin: 0 auto;
+	padding: 0;
+	}
+
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
 	text-indent: 50px;
 	color: #565658;
