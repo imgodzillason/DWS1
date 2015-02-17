@@ -106,6 +106,10 @@ figure:hover{
 #gradient{
 	background:linear-gradient(#336666, #66ccc);
 	}
+	
+h2#gradient{
+	margin-left:750px;
+	}
 
 #disclaimer {
 	padding-left:40px;
