@@ -59,6 +59,7 @@ a:active {
 	}
 
 #content{
+	background-color: #ffffff;
 	float:left;
 	width: 500px;
 	margin: 0 auto;
