@@ -63,7 +63,7 @@ div#content{
 	float:left;
 	width: 55%;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 60px;
 	clear:both;
 	}
 
@@ -105,14 +105,14 @@ figure:hover{
 	}
 
 #gradient{
-	background:linear-gradient(#0DDCF7, #D89212);
+	background:linear-gradient(#f0b7a1, #bf6e4e);
 	margin-left:40px;
 	padding-left: 660px;
 	width:35%;
 	}
 
 #gallery{
-	padding-left:100px;
+	padding-left:50%;
 	}
 
 #disclaimer {
