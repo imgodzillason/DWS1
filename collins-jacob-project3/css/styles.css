@@ -3,13 +3,13 @@
 /*-- Global Styles --*/
 
 body {
-	background-color: #000000;
+	background: url(../images/dark-spade.png) repeat fixed 0 0;
 	width: 100%;
 	font-size: 100%;
 	}
 
 #boxcontainer {
-	background: url(../../images/dark-spade.png) repeat fixed 0 0;
+	background-color: #ffffff;
 	width:90%;
 	margin: 0 auto;
 	padding: 0;
