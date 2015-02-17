@@ -63,7 +63,7 @@ div#content{
 	float:left;
 	width: 500px;
 	margin: 0 auto;
-	padding: 0;
+	padding: 20px;
 	}
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
@@ -104,7 +104,8 @@ figure:hover{
 	}
 
 #gradient{
-	background:linear-gradient(#336666, #66cccc);
+	background:linear-gradient(#0DDCF7, #D89212);
+	padding-left: 660px;
 	}
 
 #disclaimer {
