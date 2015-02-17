@@ -106,9 +106,9 @@ figure:hover{
 
 #gradient{
 	background:linear-gradient(#f0b7a1, #bf6e4e);
-	margin-left:40px;
-	padding-left: 660px;
-	width:35%;
+	margin-left:6%;
+	padding-left: 50%;
+	width:40%;
 	}
 
 #gallery{
@@ -120,6 +120,7 @@ figure:hover{
 		}
 
 h2 {
+	url(../images/hatchet.png) no-repeat fixed;
 	font-family: 'Special Elite', cursive;
 	color: #990000;
 	}
