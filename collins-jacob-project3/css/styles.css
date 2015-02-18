@@ -100,7 +100,7 @@ figure {
 	display: inline-block;
 	width: 222px;
 	opacity: 0.5;
-	padding-left:10%;
+	padding-left:7%;
 	}
 
 figure:hover{
@@ -116,7 +116,7 @@ figure:hover{
 	}
 
 #gallery{
-	padding-left:50%;
+	padding-left:80%;
 	}
 
 #disclaimer {
