@@ -14,21 +14,22 @@ body {
 	width:75%;
 	margin: 0 auto;
 	padding-right: 2%;
-	border-radius: 25px;
+	border-radius: 1.563em;
     overflow: scroll;
 		}
 
 #boxcontainer .floatleft {
     float: left;
-    width: 55%;
+    width: 50%;
     padding-left: 4.2%;
+    padding-right: 2%;
 
 }
 
 #header {
 	font-family: 'Amatic SC', cursive;
 	color: #990000;
-	text-shadow: 2px 2px #000000;
+	text-shadow: 0.075em 0.075em #000000;
 	font-size: 3.2em;
 	margin-top:0;
 	margin-bottom:0;
@@ -71,7 +72,7 @@ a:active {
 
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
-	text-indent: 50px;
+	text-indent: 3.125em;
 	color: #565658;
 	font-weight: normal;
 	font-style: normal;
@@ -81,12 +82,12 @@ a:active {
 #note {
 	color: #ffffff;
 	background-color: #990000;
-	border: 5px solid #000000;
-	padding-top: 5px;
-	padding-bottom:5px;
-	margin-left:30px;
-	margin-right: 30px;
-	box-shadow:5px 8px 10px #000000;
+	border: .313em solid #000000;
+	padding-top: .313em;
+	padding-bottom:.313em;
+	margin-left:1.875em;
+	margin-right: 1.875empx;
+	box-shadow:.313em .5em .625em #000000;
 	}
 
 li {
@@ -94,7 +95,7 @@ li {
 	}
 
 ol {
-	padding-left: 50px;
+	padding-left: 3.125em;
 	}
 
 figure {
@@ -117,9 +118,8 @@ figure:hover{
 	}
 
 #disclaimer {
-	padding-left:40px;
+	padding-left:2.5em;
     padding-bottom: 2em;
-    clear: left;
 		}
 
 h1{
@@ -146,7 +146,7 @@ h3 {
     width: 30%;
     min-width: 30%;
     position: relative;
-    border-radius: 25px;
+    border-radius: 1.563em;
     margin: 0 auto;
     padding-left: 10%;
 }
@@ -158,8 +158,8 @@ h3 {
 
 .hatchet{
     background: url(../images/Hatchet.png) no-repeat;
-    width: 32px;
-    height: 32px;
+    width: 2em;
+    height: 2em;
     padding-right: 10%;
     padding-bottom: 3%;
     padding-left:10%;
