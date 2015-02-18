@@ -23,8 +23,7 @@ body {
     width: 50%;
     padding-left: 4.2%;
     padding-right: 2%;
-
-}
+	}
 
 #header {
 	font-family: 'Amatic SC', cursive;
@@ -38,14 +37,12 @@ body {
 nav {
     width: 100%;
     margin: 0 auto;
-    padding: 15px;
     text-align: center;
-}
+	}
 
 nav li {
     display: inline-block;
-    padding-bottom: 2em;
-    
+    padding-bottom: 2em;    
     }
 
 a:link {
@@ -69,8 +66,6 @@ a:active {
 	text-decoration: none;
 	cursor: pointer;
 	}
-
-
 
 #para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
 	text-indent: 3.125em;
@@ -100,33 +95,32 @@ ol {
 	}
 
 figure {
-    display: inline-block;
+    	display: inline-block;
+    	position: relative;
+		opacity: 0.5;
+    	margin-left: auto;
+    	margin-right: auto;
+		}
 
-    position: relative;
-	opacity: 0.5;
-    margin-left: auto;
-    margin-right: auto;
-	}
+figure #gradient {
+    	width:100%;
+    	position: relative;
+    	margin: 0 auto;
+		}
 
-figure #gradient{
-    width:100%;
-    position: relative;
-    margin: 0 auto;
-}
-
-figure:hover{
+figure:hover {
 	opacity: 1.0;
 	}
 
 #disclaimer {
-	padding-left:2.5em;
-    padding-bottom: 2em;
-    clear: left;
-		}
+			padding-left:2.5em;
+    		padding-bottom: 2em;
+    		clear: left;
+			}
 
-h1{
+h1 {
     text-align: center;
-}
+	}
 
 h2 {
 	font-family: 'Special Elite', cursive;
@@ -134,43 +128,38 @@ h2 {
     padding-top: 2%;
 	}
 
-h2 .hatchet{
-
-}
-
 h3 {
-		font-family: 'Special Elite', cursive;
-}
+	font-family: 'Special Elite', cursive;
+	}
 
 #gradient{
-    background: linear-gradient(#f0b7a1, #bf6e4e);
-    float: right;
-    width: 30%;
-    min-width: 30%;
-    position: relative;
-    border-radius: 1.563em;
-    margin: 0 auto;
-    padding-left: 10%;
-}
+    	background: linear-gradient(#f0b7a1, #bf6e4e);
+    	float: right;
+    	width: 30%;
+    	min-width: 30%;
+    	position: relative;
+    	border-radius: 1.563em;
+    	margin: 0 auto;
+    	padding-left: 10%;
+		}
 
 #gallery{
-    padding-left:18%;
-    padding-bottom: 8%;
-}
+    	padding-left:18%;
+    	padding-bottom: 8%;
+		}
 
 .hatchet{
-    background: url(../images/Hatchet.png) no-repeat;
-    width: 2em;
-    height: 2em;
-    padding-right: 10%;
-    padding-bottom: 3%;
-    padding-left:10%;
-    margin: auto 0;
-
-}
+    	background: url(../images/Hatchet.png) no-repeat;
+    	width: 2em;
+    	height: 2em;
+    	padding-right: 10%;
+    	padding-bottom: 3%;
+    	padding-left:10%;
+    	margin: auto 0;
+		}
 
 #history, #influences{
-    padding-top: 28%;
-    padding-left:10%;
-    margin: auto 0;
-}
+    	padding-top: 28%;
+    	padding-left:10%;
+    	margin: auto 0;
+		}
