@@ -120,6 +120,7 @@ figure:hover{
 #disclaimer {
 	padding-left:2.5em;
     padding-bottom: 2em;
+    clear: left;
 		}
 
 h1{
