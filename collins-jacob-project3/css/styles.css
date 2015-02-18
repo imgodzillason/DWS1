@@ -140,7 +140,8 @@ h3 {
     	min-width: 30%;
     	position: relative;
     	border-radius: 1.563em;
-    	margin: 0 auto;
+    	margin: 0% auto;
+    	height: 15%;
     	padding-left: 10%;
 		}
 
