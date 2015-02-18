@@ -100,6 +100,7 @@ figure {
 	display: inline-block;
 	width: 222px;
 	opacity: 0.5;
+	padding-left:10%;
 	}
 
 figure:hover{
@@ -125,10 +126,12 @@ h2 {
 	background: url(../images/hatchet.png) no-repeat fixed;
 	font-family: 'Special Elite', cursive;
 	color: #990000;
+	padding-left: 6.5%;
 	}
 
 #hatchet{
 	display: inline-block;
+	float:left;
 	}
 
 h3 {
