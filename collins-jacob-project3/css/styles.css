@@ -65,7 +65,7 @@ div#content{
 	float:left;
 	width: 55%;
 	margin: 0 auto;
-	padding: 60px;
+	padding: 4.2%;
 	clear:both;
 	}
 
@@ -110,8 +110,10 @@ figure:hover{
 #gradient{
 	background:linear-gradient(#f0b7a1, #bf6e4e);
 	margin-left:6%;
+	margin-top:6%
 	padding-left: 50%;
 	width:40%;
+	clear:right;
 	}
 
 #gallery{
