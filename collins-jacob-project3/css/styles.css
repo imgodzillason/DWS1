@@ -12,7 +12,8 @@ body {
 #boxcontainer {
 	background-color: #ffffff;
 	width:75%;
-	margin: 0 auto;
+	height: auto;
+	margin: 0% auto;
 	padding-right: 2%;
 	border-radius: 1.563em;
     overflow: scroll;
