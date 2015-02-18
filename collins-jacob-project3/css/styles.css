@@ -120,7 +120,7 @@ figure:hover{
 		}
 
 h2 {
-	url(../images/hatchet.png) no-repeat fixed;
+	background: url(../images/hatchet.png) no-repeat fixed;
 	font-family: 'Special Elite', cursive;
 	color: #990000;
 	}
