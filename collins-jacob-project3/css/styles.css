@@ -125,6 +125,10 @@ h2 {
 	color: #990000;
 	}
 
+#hatchet{
+	display: inline-block;
+	}
+
 h3 {
 		font-family: 'Special Elite', cursive;
 }
