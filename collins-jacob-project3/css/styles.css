@@ -119,6 +119,7 @@ figure:hover{
 #disclaimer {
 	padding-left:40px;
     padding-bottom: 2em;
+    clear: left;
 		}
 
 h1{
