@@ -96,7 +96,7 @@ ol {
 	}
 
 figure {
-	float:none;
+		float:none;
     	display: inline-block;
     	position: relative;
 		opacity: 0.5;
@@ -111,8 +111,8 @@ figure #gradient {
 		}
 
 figure:hover {
-	opacity: 1.0;
-	}
+		opacity: 1.0;
+		}
 
 #disclaimer {
 			padding-left:2.5em;
@@ -138,11 +138,9 @@ h3 {
     	background: linear-gradient(#f0b7a1, #bf6e4e);
     	float: right;
     	width: 30%;
-    	min-width: 30%;
     	position: relative;
     	border-radius: 1.563em;
     	margin: 0% auto;
-    	height: 15%;
     	padding-left: 10%;
 		}
 
