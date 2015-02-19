@@ -146,8 +146,10 @@ h3 {
 		}
 
 #gallery{
+		width: 100%;
     	padding-left:0 9%;
     	padding-bottom: 0 4%;
+    	margin: 0 auto;
 		}
 
 .hatchet{
@@ -172,5 +174,6 @@ figure .galleryimages{
 	}
 
 .galleryimages img { 
-	width:100%; margin: 0 auto; 
+	width:100%; 
+	margin: 0 auto; 
 	}
