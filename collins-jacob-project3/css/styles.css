@@ -97,6 +97,7 @@ ol {
 
 figure {
 		float:none;
+		max-width:100%;
     	display: inline-block;
     	position: relative;
 		opacity: 0.5;
