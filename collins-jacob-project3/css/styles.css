@@ -166,7 +166,9 @@ h3 {
     	margin: auto 0;
 		}
 
-.galleryimages{
+figure .galleryimages{
 	width: 100%;
 	margin: 0 auto;
 	}
+
+.galleryimages img { width:100%; margin: 0 auto; }
