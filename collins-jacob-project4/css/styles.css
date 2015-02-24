@@ -178,7 +178,7 @@ figure .galleryimages{
 /*--Tables--*/
 
 table{
-    margin-top: 30px;
+    margin: 30px auto 20px auto;
     border: 2px solid #003300;
     display: inline-block;
     width: auto;
@@ -193,11 +193,6 @@ th{
     margin: 0 auto;
     text-align: center;
     font-size: 1.5em;
-}
-
-tbody{
-    text-align: left;
-    width: 500px;
 }
 
 .firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
