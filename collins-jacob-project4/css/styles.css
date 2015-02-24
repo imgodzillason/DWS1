@@ -174,3 +174,37 @@ figure .galleryimages{
 	width:100%; 
 	margin: 0 auto; 
 	}
+
+/*--Tables--*/
+
+table{
+    margin-top: 30px;
+    border: 2px solid #003300;
+    display: inline-block;
+    width: auto;
+    border-spacing: 2px;
+}
+
+th{
+    background: #FF3300;
+    padding-top: 20px;
+    letter-spacing: .25em;
+    text-transform: uppercase;
+    margin: 0 auto;
+    text-align: inherit;
+    font-size: 1.5em;
+}
+
+tbody{
+    text-align: left;
+    width: 500px;
+}
+
+.firstRow, .secondRow, .thirdRow, .fourthRow, .fifthRow{
+    width: 50px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+
+}
