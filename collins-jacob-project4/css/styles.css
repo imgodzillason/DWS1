@@ -1,0 +1,176 @@
+/*-- CSS style sheet for Jacob Collins --*/
+
+/*-- Global Styles --*/
+
+body {
+	background: #000000 url(../images/dark-spade.png);
+	width: 100%;
+	font-size: 100%;
+    margin: 0 auto;
+	}
+
+#boxcontainer {
+	background-color: #ffffff;
+	width:75%;
+	height: auto;
+	margin: 0% auto;
+	padding-right: 2%;
+	border-radius: 1.563em;
+    overflow: scroll;
+		}
+
+#boxcontainer .floatleft {
+    float: left;
+    width: 50%;
+    padding-left: 4.2%;
+    padding-right: 2%;
+	}
+
+#header {
+	font-family: 'Amatic SC', cursive;
+	color: #990000;
+	text-shadow: 0.075em 0.075em #000000;
+	font-size: 3.2em;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+nav {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	}
+
+nav li {
+    display: inline-block;
+    padding-bottom: 2em;    
+    }
+
+a:link {
+	color: #003300;
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #660066;
+	text-decoration: none;
+	}
+
+a:hover {
+	color: #FF3300;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+a:active {
+	color: #FF3300;
+	text-decoration: none;
+	cursor: pointer;
+	}
+
+#para1, #para2, #parahistory, #parainfluence, #parainfluence2 {
+	text-indent: 3.125em;
+	color: #565658;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 110%;
+	}
+
+#note {
+	color: #ffffff;
+	background-color: #990000;
+	border: .313em solid #000000;
+	padding-top: .313em;
+	padding-bottom:.313em;
+	margin-left:1.875em;
+	margin-right: 1.875em;
+	box-shadow:.313em .5em .625em #000000;
+	}
+
+li {
+	list-style-type: upper-roman;
+	}
+
+ol {
+	padding-left: 3.125em;
+	}
+
+figure {
+		float:none;
+		max-width:100%;
+    	display: block;
+    	position: relative;
+		opacity: 0.5;
+    	margin-left: auto;
+    	margin-right: auto;
+		}
+
+figure #gradient {
+    	max-width:100%;
+    	position: relative;
+    	margin: 0 auto;
+		}
+
+figure:hover {
+		opacity: 1.0;
+		}
+
+#disclaimer {
+			padding-left:2.5em;
+    		padding-bottom: 2em;
+    		clear: left;
+			}
+
+h1 {
+    text-align: center;
+	}
+
+h2 {
+	font-family: 'Special Elite', cursive;
+	color: #990000;
+    padding-top: 2%;
+	}
+
+h3 {
+	font-family: 'Special Elite', cursive;
+	}
+
+#gradient{
+    	background: linear-gradient(#f0b7a1, #bf6e4e);
+    	float: right;
+    	width: 30%;
+    	position: relative;
+    	border-radius: 1.563em;
+    	margin: 0% auto;
+    	padding: 0 5%;
+		}
+
+#gallery{
+    	margin: 0 auto;
+		}
+
+.hatchet{
+    	background: url(../images/Hatchet.png) no-repeat;
+    	width: 2em;
+    	height: 2em;
+    	padding-right: 10%;
+    	padding-bottom: 3%;
+    	padding-left:10%;
+    	margin: auto 0;
+		}
+
+#history, #influences{
+    	padding-top: 28%;
+    	padding-left:10%;
+    	margin: auto 0;
+		}
+
+figure .galleryimages{
+	width: 100%;
+	margin: 0 auto;
+	}
+
+.galleryimages img { 
+	width:100%; 
+	margin: 0 auto; 
+	}
