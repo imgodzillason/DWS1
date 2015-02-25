@@ -245,7 +245,7 @@ input[type="text"]:focus{
     padding-left: 6%;
 }
 
-.nameField{
+#nameField{
     float:none;
     width:50%;
     margin-bottom: 2%;
@@ -283,7 +283,7 @@ submitButton:hover{
 
 }
 
-label[for="firstName"], label[for="lastName"], label[for="email"]{
+label[for="nameField"]{
     padding-left:3.5%;
 }
 
