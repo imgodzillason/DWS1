@@ -227,6 +227,10 @@ input[name="email"]{
     margin-left:8%;
 }
 
+input[type="text"]:focus{
+    background: #000000;
+}
+
 .sectionTitle{
     text-align: center;
 }
