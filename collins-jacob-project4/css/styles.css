@@ -283,7 +283,7 @@ submitButton:hover{
 
 }
 
-label[for="firstName"], label[for="lastName"], label[for="email"]{
+label#firstName, label#lastName, label#email{
     padding-left:3.5%;
 }
 
