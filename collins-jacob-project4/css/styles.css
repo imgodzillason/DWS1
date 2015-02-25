@@ -228,7 +228,7 @@ input[name="email"]{
 }
 
 input[type="text"]:focus{
-    background: ##F0F0F5;
+    background: #F0F0F5;
 }
 
 .sectionTitle{
