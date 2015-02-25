@@ -245,7 +245,7 @@ input[type="text"]:focus{
     padding-left: 6%;
 }
 
-#nameField{
+#nameField1, #nameField2, #nameField3{
     float:none;
     width:50%;
     margin-bottom: 2%;
@@ -283,7 +283,7 @@ submitButton:hover{
 
 }
 
-label[for="nameField"]{
+label[for="nameField1"],label[for="nameField2"],label[for="nameField3"]{
     padding-left:3.5%;
 }
 
