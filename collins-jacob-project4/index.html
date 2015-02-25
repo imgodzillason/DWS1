@@ -37,8 +37,9 @@
 
 <!--BEGIN FLOAT LEFT CONTAINER-->
 <div class = "floatleft">
-			
-			<!--INTRO PARAGRAPHS-->
+
+
+    <!--INTRO PARAGRAPHS-->
 			<div id = "para1">
 			<p>Horror is a film genre seeking to elicit a negative emotional reaction from viewers by playing on the audience's primal fears. 
 Inspired by literature from authors like Edgar Allan Poe, Bram Stoker, Mary Shelley, horror films have for more than a century 
@@ -200,11 +201,80 @@ specific cultural from then on in their life.</p>
 </div>
 						<!--END GALLERYIMAGES DIV-->
 						</div>
+
 </aside>
 		<!--End Gallery-->
-
-<!--BEGIN DISCLAIMER-->
 <br>
+
+<!--BEGIN FORM-->
+<article id = "contactUs">
+    <h2 class = "sectionTitle">Contact Us</h2>
+
+    <p>Have any suggestions for the page?</p>
+
+    <form action="http://example.com/join.php" id="emailSubscribe">
+
+        <label for="firstName">First Name:</label><br/>
+
+        <input type = "text" name = "firstName" class="nameField" placeholder="First Name" required /><br/>
+
+        <label for="lastName">Last Name:</label><br/>
+
+        <input type = "text" name="lastName" class="nameField" placeholder="Last Name" required /><br/>
+
+        <label for="email">Email:</label><br/>
+
+        <input type="text" name="email" class="nameField" placeholder="example@example.come" required /><br/>
+
+        <fieldset id = "findUs">
+
+            <label for ="findUs">How did you find us?</label>
+
+            <br/>
+
+            <input type = "radio" name = "findUs" value = "findUs" />
+
+            <label for ="social">Social Media</label>
+
+            <input type ="radio" name = "search" value = "search" />
+
+            <label for="search">Search Engine</label>
+
+            <input type = "radio" name ="ads" value ="ads" />
+
+            <label for = "ads"">Ad on another page</label>
+
+
+        </fieldset>
+
+        <fieldset id = "chooseGenre">
+
+            <label for = "horrorGenre" class = "selectLabel">What's your favorite genre?</label><br/>
+
+            <select name = "horrorGenre" class="formSelect">
+
+                <option value = "choose">Select One</option>
+
+                <option value = "actionHorror"> Action Horror</option>
+
+                <option value = "splatterHorror">Splatter Horror</option>
+
+                <option value = "scifi">Science Fiction Horror</option>
+
+                <option value = "comedyHorror">Comedy Horror</option>
+
+                <option value = "other">Other</option>
+            </select><br/>
+
+        </fieldset>
+
+        <input type = "submit" value = "Submit" class = "submitButton" />
+
+    </form>
+</article>
+<!--END FORM-->
+
+                                <!--BEGIN DISCLAIMER-->
 <footer>
 <div id = "disclaimer">
                 <em>Information and images obtained from <a href = "https://en.wikipedia.org/wiki/Horror_film">Wikipedia.org</a>.</em>

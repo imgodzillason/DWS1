@@ -201,5 +201,37 @@ th{
     color: #ffffff;
     text-align: center;
     font-size: 1em;
+}
 
+.firstRow:hover, .secondRow:hover, .thirdRow:hover, .fourthRow:hover, .fifthRow:hover{
+    background: #990000;
+}
+
+#genres{
+    margin: 0 auto;
+    width: 75%;
+}
+
+/*--Forms--*/
+
+#contactUs{
+    float: right;
+    width: 40%;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    margin-top: 2%;
+}
+
+.sectionTitle{
+    text-align: center;
+}
+
+#emailSubscribe{
+    padding-left:3%;
+    padding-bottom:3%;
+
+}
+
+#contactUs p:first-of-type{
+    padding-left: 3%;
 }
