@@ -180,7 +180,6 @@ figure .galleryimages{
 table{
     margin: 30px auto 20px auto;
     border: 2px solid #003300;
-    display: inline-block;
     width: auto;
     border-spacing: 2px;
 }
@@ -215,11 +214,17 @@ th{
 /*--Forms--*/
 
 #contactUs{
+    background:#F0F0F5;
     float: right;
     width: 40%;
     border: 2px solid #000000;
     border-radius: 25px;
     margin-top: 2%;
+    font-size: 1em;
+}
+
+input[name="email"]{
+    margin-left:8%;
 }
 
 .sectionTitle{
@@ -233,5 +238,55 @@ th{
 }
 
 #contactUs p:first-of-type{
-    padding-left: 3%;
+    padding-left: 6%;
+}
+
+.nameField{
+    float:none;
+    width:50%;
+    margin-bottom: 2%;
+}
+
+fieldset{
+    float: left;
+    margin: 0 auto;
+}
+
+fieldset#findUs{
+    border: none;
+}
+
+fieldset#chooseGenre{
+    border: none;
+    width: 92%;
+}
+
+input:hover{
+    background:#990000;
+    color: #ffffff;
+}
+
+.submitButton{
+    background: linear-gradient(to bottom, rgba(109,0,25,1) 0%,rgba(143,2,34,1) 56%,rgba(169,3,41,1) 100%);
+    color: #ffffff;
+    width: 30%;
+    border-radius:5%;
+}
+
+submitButton:hover{
+    background: linear-gradient(to bottom, rgba(169,3,41,1) 0%,rgba(143,2,34,1) 44%,rgba(109,0,25,1) 100%);
+    color:#D8D8DC;
+
+}
+
+label[for="firstName"], label[for="lastName"], label[for="email"]{
+    padding-left:3.5%;
+}
+
+.submitButton{
+    margin: 0 auto;
+}
+
+#sButton{
+    padding-left:3%;
 }
