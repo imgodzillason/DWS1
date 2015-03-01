@@ -75,12 +75,23 @@ li{
     float:left;
     width:450px;
     padding-left:64px;
-    padding-right:44px;
+    margin-right:44px;
 }
 
 #column1of2 p:first-of-type{
     border-top: 3px solid black;
     padding-top:25px;
+}
+
+.page-flip{
+}
+
+#column1of2.page-flip p:last-of-type{
+    background-image:url(../images/page-flip.gif);
+    background-repeat:no-repeat;
+    width:450px;
+    padding-bottom:45px;
+
 }
 
 /*--Column 2--*/
@@ -95,6 +106,7 @@ li{
 #column2of2 img{
     display:inline-block;
     float:left;
+    padding-right:8px;
 }
 
 #column2of2 p{
@@ -111,20 +123,6 @@ li{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*--Footer--*/
 
 footer{
@@ -135,6 +133,7 @@ footer{
 }
 
 footer>p{
+    margin:0 auto;
     display:block;
     text-align:center;
 }
