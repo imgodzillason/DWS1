@@ -24,12 +24,15 @@ h1{
     background-image:url(../images/logo.gif);
     background-repeat:no-repeat;
     position:absolute;
-    font-size:0;
     width:317px;
     height:71px;
     margin-top:64px;
     margin-left:64px;
     z-index:10;
+}
+
+h1 a {
+    display:none;
 }
 
 h2{
@@ -63,13 +66,9 @@ li{
 #main-content{
     background-image: url(../images/main-content-bg.jpg);
     background-repeat:repeat-y;
-    width:960px;
 
 }
 
-section#column1of2{
-    background-image:url(../images/main-content-bg.jpg);
-    background-repeat:repeat-y;
 
 
 }
@@ -91,8 +90,9 @@ section#column1of2{
 /*--Column 2--*/
 
 #column2of2{
-    float:none;
+    float:right;
     width:260px;
+    clear:right;
 }
 
 #column2of2 img{
@@ -128,7 +128,7 @@ section#column1of2{
 
 
 
-/*--Footer--*/
+/*--Footer
 
 footer{
     background:url(../images/footer-bg.jpg);
@@ -141,3 +141,4 @@ footer>p{
     display:block;
     text-align:center;
 }
+--*/
