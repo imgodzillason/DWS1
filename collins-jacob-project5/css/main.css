@@ -58,14 +58,16 @@ li{
 
 #banner{
     background-image:url(../images/banner.jpg);
+    background-repeat:no-repeat;
     width: 890px;
     height: 200px;
     margin: 0 auto;
+
 }
 
 #main-content{
     background-image: url(../images/main-content-bg.jpg);
-    background-repeat:repeat-y;
+
 }
 
 /*--Column 1--*/
@@ -88,6 +90,7 @@ li{
     float:right;
     width:260px;
     clear:right;
+    padding-right:64px;
 }
 
 #column2of2 img{
