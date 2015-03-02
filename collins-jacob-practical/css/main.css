@@ -9,7 +9,7 @@ body {
     overflow:auto;
 }
 
-/*--Header--*/
+/*--Header and Nav--*/
 
 header{
     background-image: url(../images/header-bg.jpg);
@@ -27,8 +27,7 @@ h1{
     position:absolute;
     width:317px;
     height:71px;
-    margin-top:64px;
-    margin-left:64px;
+    margin:64px 0 0 64px;
     z-index:10;
 }
 
@@ -44,9 +43,7 @@ h2{
 ul{
     list-style-type:none;
     float:right;
-    margin:0;
-    margin-right:64px;
-    margin-top:84px;
+    margin:84px 64px 0 0;
 
 }
 
@@ -57,7 +54,7 @@ li{
 }
 
 li a{
-    color:#000000;
+    color:#423b2e;
     text-decoration:none;
     font-size:1.2em;
     text-transform:uppercase;
@@ -98,7 +95,9 @@ li a:hover{
     width:450px;
     padding-left:64px;
     margin-right:44px;
-    overflow:visible;
+    background-image:url(../images/page-flip.gif);
+    background-repeat:no-repeat;
+    background-position:45px 250px;
 }
 
 #column1of2 p:first-of-type{
@@ -109,13 +108,10 @@ li a:hover{
 
 
 #column1of2.page-flip p:last-of-type{
-    background-image:url(../images/page-flip.gif);
-    background-repeat:no-repeat;
-    position:absolute;
-    background-position:0 45px;
-    width:450px;
-    padding-bottom:45px;
 
+    background-position:-5px 65px;
+    width:450px;
+    padding-bottom:75px;
 }
 
 /*--Column 2--*/
@@ -123,8 +119,10 @@ li a:hover{
 #column2of2{
     float:right;
     width:260px;
-    clear:right;
-    padding-right:64px;
+    padding:0 64px 45px 0;
+    background-image:url(../images/page-flip.gif);
+    background-repeat:no-repeat;
+    background-position:-10px 365px;
 }
 
 #column2of2 img{
@@ -136,19 +134,13 @@ li a:hover{
 #column2of2 p{
     display:inline-block;
     border-top:3px solid #000000;
-    padding-top:25px;
-    padding-left:20px;
+    padding:25px 0 0 20px;
 }
 
 #column2of2 p:last-of-type{
     border-bottom:3px solid #000000;
-    padding-bottom:45px;
-}
+    padding-bottom:25px;
 
-#column2of2.page-flip p:last-of-type{
-    background-image:url(../images/page-flip.gif);
-    background-repeat:no-repeat;
-    background-position:0 45px;
 }
 
 /*--Footer--*/
