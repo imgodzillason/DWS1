@@ -59,12 +59,21 @@ li{
 li a{
     color:#000000;
     text-decoration:none;
-    font-size:1.5em;
+    font-size:1.2em;
     text-transform:uppercase;
 }
 
 li a:hover{
+    color:#008000;
+}
+
+#current{
     color:#bf3102;
+
+}
+
+#current:hover{
+    color:#008000;
 }
 
 /*--Content--*/
@@ -84,7 +93,7 @@ li a:hover{
 
 /*--Column 1--*/
 
-#column1of2{
+#column1of2 {
     float:left;
     width:450px;
     padding-left:64px;
@@ -101,6 +110,7 @@ li a:hover{
 #column1of2.page-flip p:last-of-type{
     background-image:url(../images/page-flip.gif);
     background-repeat:no-repeat;
+    background-position:0px 45px;
     width:450px;
     padding-bottom:45px;
 
@@ -136,7 +146,7 @@ li a:hover{
 #column2of2.page-flip p:last-of-type{
     background-image:url(../images/page-flip.gif);
     background-repeat:no-repeat;
-
+    background-position:0px 45px;
 }
 
 /*--Footer--*/
@@ -154,4 +164,5 @@ footer>p{
     display:block;
     text-align:center;
     padding-top:92px;
+    font-size:.9em;
 }
