@@ -98,6 +98,7 @@ li a:hover{
     width:450px;
     padding-left:64px;
     margin-right:44px;
+    overflow:visible;
 }
 
 #column1of2 p:first-of-type{
