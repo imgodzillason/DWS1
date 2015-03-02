@@ -110,7 +110,8 @@ li a:hover{
 #column1of2.page-flip p:last-of-type{
     background-image:url(../images/page-flip.gif);
     background-repeat:no-repeat;
-    background-position:0px 45px;
+    position:absolute;
+    background-position:0 45px;
     width:450px;
     padding-bottom:45px;
 
@@ -146,7 +147,7 @@ li a:hover{
 #column2of2.page-flip p:last-of-type{
     background-image:url(../images/page-flip.gif);
     background-repeat:no-repeat;
-    background-position:0px 45px;
+    background-position:0 45px;
 }
 
 /*--Footer--*/
